@@ -4,24 +4,24 @@ import { Quote, Star } from "lucide-react";
 
 const testimonialData = [
   {
-    name: "Ani Mijar",
+    name: "Ravi Joshi",
     image: "",
     description:
-      "Excellent service! The car was in perfect condition, the staff was friendly, and the booking process was super easy. Highly recommend this company for a smooth and hassle-free rental experience",
+      "Driver was polite and car was clean. Very smooth ride. Will book again from Bansi Cab Service.",
     aosDelay: "0",
   },
   {
-    name: "Arjun Parmar",
+    name: "Neha Patel",
     image: "",
     description:
-      "Best round trip in dwarka somnath sasan gir.  5-day round-trip best drive, Vijay Gadhvi. Thank you very much Dhyna Cab Line.",
+      "Booked for airport drop. Time par aaye aur safe drive diya. Thank you Mashri bhai!",
     aosDelay: "150",
   },
   {
-    name: "Piyush Dudhrejiya",
+    name: "Suresh Bhai Vora",
     image: "",
     description:
-      "Best one-way service: Bansi Cab Service. Thank you very much. My Daughter was carefully picked up and dropped from Jamnagar to Ahmedabad airport. Thanks once again.",
+      "Jamnagar thi Rajkot jawanu hatu, booking bau easy hati ane service pan saras mali.",
     aosDelay: "300",
   },
 ];
@@ -150,7 +150,7 @@ const Testimonial = () => {
                           {testimonial.name}
                         </p>
                         <p className="text-sm opacity-70 font-medium">
-                          Actual Google Review
+                          Actual Review
                         </p>
                       </div>
                     </div>

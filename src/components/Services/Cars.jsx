@@ -44,9 +44,9 @@ const Cars = () => {
     },
     {
       type: "MUV",
-      models: "Innova",
+      models: "Crysta",
       alt: "Innova taxi service in Jamnagar - Bansi Cab",
-      rate: "₹16/km",
+      rate: "₹18/km",
       average: "300km average day",
       da: "₹300 DA",
       extra: "Extra toll + parking",
@@ -55,9 +55,9 @@ const Cars = () => {
     },
     {
       type: "MUV",
-      models: "Crysta",
+      models: "Innova",
       alt: "Crysta taxi service in Jamnagar - Bansi Cab",
-      rate: "₹18/km",
+      rate: "₹16/km",
       average: "300km average day",
       da: "₹300 DA",
       extra: "Extra toll + parking",
