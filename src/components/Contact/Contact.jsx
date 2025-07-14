@@ -33,12 +33,12 @@ const Contact = () => {
                   </div>
 
                   <h1 className="text-5xl lg:text-6xl font-bold text-black dark:text-white leading-tight">
-                    Book Your Ride, Hassle-Free.
-                    <span className="block text-yellow-400">Taxi Business Forward</span>
+                    Book Your Ride, 
+                    <span className="block text-yellow-400">Hassle-Free.</span>
                   </h1>
 
                   <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-                    Launch your taxi service with confidence. We provide the technology, support, and partnership you need to connect riders with reliable transportation.
+                    24x7 cab service - safe, smooth aur time pe. Bas pickup location daalo, aur relax ho jao.
                   </p>
                 </div>
 
