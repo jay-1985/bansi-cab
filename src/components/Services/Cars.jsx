@@ -102,7 +102,7 @@ const Cars = () => {
       </div>
 
       {/* Main Content Area */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-0 pb-20">
         {/* Car Fleet Section Title */}
         <div className="text-center mb-8 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-yellow-600 to-amber-600 bg-clip-text text-transparent m-4 sm:m-8">
@@ -228,7 +228,7 @@ const Cars = () => {
           </div>
 
           {/* Mobile Version (visible on screens <640px) */}
-          <div className="sm:hidden w-[80%] mx-auto bg-yellow-400 py-4 px-8 shadow-lg flex flex-col gap-4 items-center mt-6">
+          <div className="sm:hidden w-[110%] -ml-5 bg-yellow-400 py-4 px-6 flex flex-row items-center mt-6">
             <p className="text-black font-bold text-xl text-center">
               Need a cab? We’re ready.
             </p>
@@ -237,12 +237,12 @@ const Cars = () => {
               onClick={handleContactClick}
               className="bg-green-500 text-white text-base font-bold px-6 py-3 rounded-full hover:bg-green-600 transition"
             >
-              Contact Us
+              Contact
             </button>
           </div>
 
           {/* Desktop Version (visible on screens ≥640px) */}
-          <div className="hidden sm:flex w-[80%] mx-auto bg-yellow-400 py-4 px-8  shadow-lg items-center justify-between gap-10 mt-14">
+          <div className="hidden sm:flex w-[126%] -ml-[13%] bg-yellow-400 py-4 px-10 sm:px-24 items-center justify-center gap-10 mt-14">
             <p className="text-black font-bold text-2xl text-center">
               Need a cab? We’re ready.
             </p>

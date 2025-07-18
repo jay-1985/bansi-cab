@@ -44,17 +44,20 @@ const Navbar = ({ theme, setTheme }) => {
 
   return (
     <div className="relative z-10 bg-white/80 dark:bg-black/80 backdrop-blur-md border-b border-gray-200/20 dark:border-gray-700/20 shadow-lg dark:text-white duration-300 transition-all">
-      <div className="container py-3 md:py-0">
+      <div className="container md:py-0">
         <div className="flex justify-between items-center">
           {/* Logo Section */}
           <div className="flex items-center space-x-3">
             <div className="relative">
               {/* Logo Icon */}
-              <img
-                src={BansiLogo}
-                alt="Bansi Cab Service Logo"
+              <Link to="/">
+            <img
+              src={BansiLogo}
+              alt="Bansi Cab Service Logo"
                 className="relative"
               />
+            </Link>
+
               {/* Pulse animation for logo */}
             </div>
           </div>

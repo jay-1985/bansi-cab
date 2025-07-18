@@ -66,7 +66,7 @@ const Testimonial = () => {
   return (
     <>
       <span id="about"></span>
-      <div className="dark:bg-black dark:text-white py-14 sm:pb-24 relative overflow-hidden">
+      <div className="dark:bg-black dark:text-white relative overflow-hidden">
         <div className="container">
           {/* Header Section */}
           <div className="space-y-6 pb-16 text-center">
@@ -323,9 +323,9 @@ const Testimonial = () => {
                 </p>
               )}
             </div>
-
+          </div>
             {/* Mobile Version */}
-          <div className="sm:hidden w-[110%] -ml-5 bg-yellow-400 py-4 px-6 flex flex-row gap-10 items-center mt-6">
+          <div className="sm:hidden w-[110%] -ml-5 bg-yellow-400 py-4 px-6 flex flex-row items-center mt-6">
             <p className="text-black font-semibold text-center text-sm">
               Planning a trip? Explore now, decide later.
             </p>
@@ -333,10 +333,9 @@ const Testimonial = () => {
               onClick={handleCardClick}
               className="bg-green-500 text-white text-base sm:text-lg font-bold px-6 py-3 rounded-full hover:bg-green-600 transition"
             >
-              Contact Us
+              Contact
             </button>
           </div>
-
           {/* Desktop Version */}
           <div className="hidden sm:flex w-[126%] -ml-[13%] bg-yellow-400 py-4 px-10 sm:px-24 items-center justify-center gap-10 mt-14">
             <p className="text-black font-bold text-xl sm:text-2xl text-center">
@@ -348,7 +347,6 @@ const Testimonial = () => {
             >
               Contact Us
             </button>
-          </div>
           </div>
         </div>
       </div>

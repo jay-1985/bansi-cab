@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="relative z-9 py-20 px-4">
+      <div className="relative z-9 py-20 pb-2 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="bg-white/80 dark:bg-white/10 backdrop-blur-xl border border-white/50 dark:border-white/20 rounded-3xl p-8 lg:p-12 shadow-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-12 items-center">
