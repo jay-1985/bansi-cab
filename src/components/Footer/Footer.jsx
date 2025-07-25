@@ -90,13 +90,13 @@ const Footer = () => {
                   {[
                     {
                       icon: Facebook,
-                      url: "https://www.facebook.com/profile.php?id=61564219494060#",
+                      url: "https://bansicabservice.com/#/",
                       color: "hover:text-blue-500",
                       bg: "hover:bg-blue-100 dark:hover:bg-blue-500/20",
                     },
                     {
                       icon: Instagram,
-                      url: "https://www.instagram.com/dhyana_cab_line/",
+                      url: "https://www.instagram.com/bansicabservice/",
                       color: "hover:text-pink-500",
                       bg: "hover:bg-pink-100 dark:hover:bg-pink-500/20",
                     },
