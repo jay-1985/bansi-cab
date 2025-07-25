@@ -229,7 +229,7 @@ const Cars = () => {
 
           {/* Mobile Version (visible on screens <640px) */}
           <div className="sm:hidden w-[110%] -ml-5 bg-yellow-400 py-4 px-6 flex flex-row items-center mt-6">
-            <p className="text-black font-bold text-xl text-center">
+            <p className="text-black font-bold text-l text-center">
               Need a cab? We’re ready.
             </p>
             <button

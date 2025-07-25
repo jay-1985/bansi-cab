@@ -614,7 +614,7 @@ const GujaratCabServices = () => {
 
         {/* Mobile Version (visible on screens <640px) */}
         <div className="sm:hidden w-[110%] -ml-5 bg-yellow-400 py-4 px-6 flex flex-row items-center mt-6">
-          <p className="text-black font-bold text-xl text-center">
+          <p className="text-black font-bold text-l text-center">
             Explored the places? Book your ride now.
           </p>
           <button
