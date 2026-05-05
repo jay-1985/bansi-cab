@@ -14,7 +14,8 @@ import Contact from "./components/Contact/Contact";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 import FloatingButtons from "./components/Buttons/FloatingButton";
-import About from "./components/Blog/BlogList";
+import BlogList from "./components/Blog/BlogList";
+import BlogDetail from "./components/Blog/BlogDetail";
 
 const App = () => {
   const [theme, setTheme] = useState(
