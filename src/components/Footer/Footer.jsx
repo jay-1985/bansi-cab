@@ -51,7 +51,7 @@ const Footer = () => {
                 {[
                   {
                     icon: Phone,
-                    title: "+91 9227123990",
+                    title: "+91 9979975016",
                   },
                   {
                     icon: Mail,
