@@ -66,7 +66,7 @@ const App = () => {
           } 
           />
           <Route path="/travel" element={<Travel />} />
-          <Route path="/blog" element={<BlogList />} />
+          <Route path="/blogs" element={<BlogList />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <FloatingButtons/>
